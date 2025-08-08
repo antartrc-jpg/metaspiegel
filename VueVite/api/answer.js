@@ -1,6 +1,7 @@
 import metaSpiegel from '../../data/meta-spiegel.json';
 
-let sessions = {}; // Gleicher Store wie bei question.js, für Demo lokal
+let sessions = {}; // Frageindex pro Session
+let sessionsAnswers = {}; // Antworten pro Session
 
 export default function handler(req, res) {
   setCorsHeaders(res);
@@ -19,9 +20,17 @@ export default function handler(req, res) {
       return;
     }
 
+    // Init Session-Stores
     if (!sessions[sessionId]) sessions[sessionId] = 0;
+    if (!sessionsAnswers[sessionId]) sessionsAnswers[sessionId] = [];
+
+    // Antwort speichern
+    sessionsAnswers[sessionId].push(answer);
+
+    // Nächste Frage index erhöhen
     sessions[sessionId]++;
 
+    // Wenn letzte Frage erreicht
     if (sessions[sessionId] >= metaSpiegel.questions.length) {
       res.status(200).json({ done: true, nextQuestion: null });
       return;
