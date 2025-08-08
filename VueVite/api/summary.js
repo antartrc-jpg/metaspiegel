@@ -1,5 +1,4 @@
-// Einfacher In-Memory-Store für Antworten pro Session
-let sessionsAnswers = {}; // { sessionId: [antwort1, antwort2, ...] }
+import { sessionsAnswers } from './sessionStore.js';
 
 export default function handler(req, res) {
   setCorsHeaders(res);
@@ -18,7 +17,7 @@ export default function handler(req, res) {
     return;
   }
 
-  res.status(405).end();
+  res.status(405).end(); // Methode nicht erlaubt
 }
 
 function generateSummary(answers) {
@@ -26,7 +25,6 @@ function generateSummary(answers) {
     return "Es liegen noch keine Antworten vor.";
   }
 
-  // Beispielhafte Zusammenfassung: Einfach Antworten aufzählen
   return "Deine bisherigen Antworten sind: " + answers.join(", ") + ".";
 }
 
