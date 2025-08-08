@@ -41,6 +41,11 @@ const routes = [
     name: 'export',
     component: () => import('@/views/Export.vue'),
     meta: { requiresRole: true, step: 5 }
+  },
+  {
+    path: '/health',
+    name: 'healthcheck',
+    component: () => import('@/views/Healthcheck.vue')
   }
 ]
 
@@ -49,17 +54,13 @@ const router = createRouter({
   routes
 })
 
-// Navigation Guard: Prüft, ob Rolle gesetzt ist, wenn geschützte Route aufgerufen wird
+// Navigation Guard: Zugriffsschutz für geschützte Schritte
 router.beforeEach((to, from, next) => {
   const assessmentStore = useAssessmentStore()
 
-  if (to.meta.requiresRole) {
-    if (!assessmentStore.currentRole) {
-      // Rolle nicht gesetzt – Umleitung zur Rollenauswahl
-      next({ name: 'role-selection' })
-    } else {
-      next()
-    }
+  if (to.meta.requiresRole && !assessmentStore.currentRole) {
+    // Rolle nicht gesetzt → Weiterleitung zur Rollenauswahl
+    next({ name: 'role-selection' })
   } else {
     next()
   }
