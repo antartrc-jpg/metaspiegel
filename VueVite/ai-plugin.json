@@ -9,7 +9,7 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://metaspiegel.vercel.app/openapi-public.yaml",
+    "url": "https://metaspiegel.vercel.app/openapi.yaml",
     "is_user_authenticated": false
   },
   "logo_url": "https://metaspiegel.vercel.app/logo.png",
