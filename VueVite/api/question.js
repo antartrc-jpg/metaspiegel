@@ -1,6 +1,6 @@
 import metaSpiegel from '../../data/meta-spiegel.json';
 
-let sessions = {}; // Einfacher In-Memory-Session-Store: { sessionId: currentIndex }
+let sessions = {}; // SessionId → aktuelle Frage-Index
 
 export default function handler(req, res) {
   setCorsHeaders(res);
@@ -13,9 +13,11 @@ export default function handler(req, res) {
   if (req.method === 'GET') {
     const sessionId = req.headers['x-session-id'] || 'default';
 
+    // Falls Session noch nicht existiert, starte bei Frage 0
     if (!sessions[sessionId]) sessions[sessionId] = 0;
     const idx = sessions[sessionId];
 
+    // Wenn alle Fragen durch sind
     if (idx >= metaSpiegel.questions.length) {
       res.status(200).json({ done: true, question: null });
       return;
@@ -26,7 +28,7 @@ export default function handler(req, res) {
     return;
   }
 
-  res.status(405).end();
+  res.status(405).end(); // Methode nicht erlaubt
 }
 
 function setCorsHeaders(res) {
