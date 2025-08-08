@@ -2,15 +2,15 @@
   "rewrites": [
     {
       "source": "/openapi.yaml",
-      "destination": "/openapi.yaml"
+      "destination": "/Public/openapi.yaml"
     },
     {
       "source": "/ai-plugin.json",
-      "destination": "/ai-plugin.json"
+      "destination": "/Public/ai-plugin.json"
     },
     {
       "source": "/privacy.html",
-      "destination": "/privacy.html"
+      "destination": "/Public/privacy.html"
     },
     {
       "source": "/(.*)",
