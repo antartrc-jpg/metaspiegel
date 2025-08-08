@@ -4,7 +4,7 @@ info:
   description: API für interaktiven Fragen-Dialog basierend auf dem Meta-Spiegel-Modell zur Veränderungsfitness.
   version: 1.0.0
 servers:
-  - url: https://6458c63f-7459-41e4-83f8-5262db1ada31-00-1w241ejzh4u5v.riker.replit.dev
+  - url: https://metaspiegel-6fp08nogo-antar-turucs-projects.vercel.app
 paths:
   /question:
     get:
