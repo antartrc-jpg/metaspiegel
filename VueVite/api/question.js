@@ -1,17 +1,27 @@
-export default function handler(req, res) {
-  if (req.method === 'GET') {
-    const question = getNextQuestion(); // hier kannst du deine Logik einfügen
-    res.status(200).json({
-      done: false,
-      question: question ?? null
-    });
-  } else {
-    res.status(405).end(); // Method Not Allowed
-  }
-}
+import metaSpiegel from '../../data/meta-spiegel.json'; // Pfad anpassen
 
-// Beispiel-Funktion
-function getNextQuestion() {
-  // Platzhalter-Logik (z. B. aus Session/DB ziehen)
-  return "Wie sicher fühlst du dich, Feedback zu geben?";
+// Einfaches Beispiel, um die Fragen der Reihe nach auszugeben
+let currentIndex = 0;
+
+export default function handler(req, res) {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
+  if (req.method === 'OPTIONS') {
+    res.status(200).end();
+    return;
+  }
+
+  if (req.method === 'GET') {
+    if (currentIndex >= metaSpiegel.questions.length) {
+      res.status(200).json({ done: true, question: null });
+      return;
+    }
+
+    const question = metaSpiegel.questions[currentIndex];
+    res.status(200).json({ done: false, question });
+  } else {
+    res.status(405).end();
+  }
 }
