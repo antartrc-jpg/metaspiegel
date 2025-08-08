@@ -9,10 +9,10 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://metaspiegel.vercel.app/openapi.yaml",
+    "url": "https://metaspiegel.vercel.app/public/openapi.yaml",
     "is_user_authenticated": false
   },
-  "logo_url": "https://metaspiegel.vercel.app/logo.png",
+  "logo_url": "https://metaspiegel.vercel.app/public/logo.png",
   "contact_email": "antartrc@gmail.com",
-  "legal_info_url": "https://metaspiegel.vercel.app/legal"
+  "legal_info_url": "https://metaspiegel.vercel.app/public/legal"
 }
