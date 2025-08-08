@@ -9,7 +9,8 @@ export default defineConfig({
     port: 5000,
     allowedHosts: [
       'metaspiegel.vercel.app' // ohne https:// und Slash
-    ]
+    ],
+    cors: true
   },
   resolve: {
     alias: {
