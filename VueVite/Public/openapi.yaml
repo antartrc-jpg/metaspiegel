@@ -6,7 +6,7 @@ info:
 
 servers:
   - url: https://metaspiegel.vercel.app/api
-    description: Produktionsserver (Vercel API-Route)
+    description: Produktionsserver (API-Route)
 
 paths:
   /question:
