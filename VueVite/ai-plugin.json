@@ -5,14 +5,14 @@
   "description_for_human": "Diagnose-Tool für Veränderungsfitness basierend auf Meta-Spiegel.",
   "description_for_model": "Führt interaktiven Fragen-Dialog basierend auf dem Meta-Spiegel durch.",
   "auth": {
-  "type": "none"
-},
-"api": {
-  "type": "openapi",
-  "url": "https://metaspiegel.vercel.app/openapi.yaml",
-  "is_user_authenticated": false
-},
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://metaspiegel.vercel.app/openapi.yaml",
+    "is_user_authenticated": false
+  },
   "logo_url": "https://metaspiegel.vercel.app/logo.png",
   "contact_email": "antartrc@gmail.com",
-  "legal_info_url": "https://metaspiegel.vercel.app/legal"
+  "legal_info_url": "https://metaspiegel.vercel.app/privacy.html"
 }
