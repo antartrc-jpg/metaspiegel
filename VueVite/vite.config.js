@@ -8,12 +8,19 @@ export default defineConfig({
     host: '0.0.0.0',
     port: 5000,
     allowedHosts: [
-      'https://metaspiegel.vercel.app/'
+      'metaspiegel.vercel.app' // ohne https:// und Slash
     ]
   },
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src')
+    }
+  },
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html')
+      }
     }
   }
 })
