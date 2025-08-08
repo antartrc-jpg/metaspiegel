@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/openapi-public.yaml",
-      "destination": "/openapi-public.yaml"
+      "destination": "/openapi.yaml"
     },
     {
       "source": "/ai-plugin.json",
