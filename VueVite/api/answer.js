@@ -1,7 +1,5 @@
 import metaSpiegel from '../../data/meta-spiegel.json';
-
-let sessions = {}; // Frageindex pro Session
-let sessionsAnswers = {}; // Antworten pro Session
+import { sessions, sessionsAnswers } from './sessionStore.js';
 
 export default function handler(req, res) {
   setCorsHeaders(res);
@@ -20,17 +18,15 @@ export default function handler(req, res) {
       return;
     }
 
-    // Init Session-Stores
     if (!sessions[sessionId]) sessions[sessionId] = 0;
     if (!sessionsAnswers[sessionId]) sessionsAnswers[sessionId] = [];
 
     // Antwort speichern
     sessionsAnswers[sessionId].push(answer);
 
-    // Nächste Frage index erhöhen
+    // Frageindex erhöhen
     sessions[sessionId]++;
 
-    // Wenn letzte Frage erreicht
     if (sessions[sessionId] >= metaSpiegel.questions.length) {
       res.status(200).json({ done: true, nextQuestion: null });
       return;
@@ -41,7 +37,7 @@ export default function handler(req, res) {
     return;
   }
 
-  res.status(405).end();
+  res.status(405).end(); // Methode nicht erlaubt
 }
 
 function setCorsHeaders(res) {
