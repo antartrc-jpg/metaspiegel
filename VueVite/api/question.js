@@ -1,12 +1,9 @@
-import metaSpiegel from '../../data/meta-spiegel.json'; // Pfad anpassen
+import metaSpiegel from '../../data/meta-spiegel.json';
 
-// Einfaches Beispiel, um die Fragen der Reihe nach auszugeben
-let currentIndex = 0;
+let sessions = {}; // Einfacher In-Memory-Session-Store: { sessionId: currentIndex }
 
 export default function handler(req, res) {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  setCorsHeaders(res);
 
   if (req.method === 'OPTIONS') {
     res.status(200).end();
@@ -14,14 +11,26 @@ export default function handler(req, res) {
   }
 
   if (req.method === 'GET') {
-    if (currentIndex >= metaSpiegel.questions.length) {
+    const sessionId = req.headers['x-session-id'] || 'default';
+
+    if (!sessions[sessionId]) sessions[sessionId] = 0;
+    const idx = sessions[sessionId];
+
+    if (idx >= metaSpiegel.questions.length) {
       res.status(200).json({ done: true, question: null });
       return;
     }
 
-    const question = metaSpiegel.questions[currentIndex];
+    const question = metaSpiegel.questions[idx];
     res.status(200).json({ done: false, question });
-  } else {
-    res.status(405).end();
+    return;
   }
+
+  res.status(405).end();
+}
+
+function setCorsHeaders(res) {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, X-Session-Id');
 }
