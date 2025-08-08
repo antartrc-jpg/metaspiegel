@@ -3,7 +3,7 @@
     { "source": "/openapi.yaml", "destination": "/openapi.yaml" },
     { "source": "/ai-plugin.json", "destination": "/ai-plugin.json" },
     { "source": "/privacy.html", "destination": "/privacy.html" },
-    { "source": "/api/(.*)", "destination": "/api/$1" },
+    { "source": "/api/:path*", "destination": "/api/:path*" },
     { "source": "/(.*)", "destination": "/" }
   ]
 }
