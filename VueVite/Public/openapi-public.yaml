@@ -5,8 +5,8 @@ info:
   version: 1.0.0
 
 servers:
-  - url: https://metaspiegel.vercel.app/
-    description: Produktionsserver
+  - url: https://metaspiegel.vercel.app/api
+    description: Produktionsserver (Vercel API-Route)
 
 paths:
   /question:
