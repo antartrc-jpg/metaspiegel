@@ -5,7 +5,8 @@
   "description_for_human": "Diagnose-Tool für Veränderungsfitness basierend auf Meta-Spiegel.",
   "description_for_model": "Führt interaktiven Fragen-Dialog basierend auf dem Meta-Spiegel durch.",
   "auth": {
-    "type": "none"
+  "type": "none"
+},
 "api": {
   "type": "openapi",
   "url": "https://metaspiegel.vercel.app/openapi.yaml",
