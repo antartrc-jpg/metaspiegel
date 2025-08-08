@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/openapi-public.yaml",
+      "source": "/openapi.yaml",
       "destination": "/openapi.yaml"
     },
     {
