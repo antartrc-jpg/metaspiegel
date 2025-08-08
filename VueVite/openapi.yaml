@@ -1,0 +1,79 @@
+openapi: 3.1.0
+info:
+  title: Meta-Spiegel Diagnose API
+  description: API für interaktiven Fragen-Dialog basierend auf dem Meta-Spiegel-Modell zur Veränderungsfitness.
+  version: 1.0.0
+servers:
+  - url: https://6458c63f-7459-41e4-83f8-5262db1ada31-00-1w241ejzh4u5v.riker.replit.dev
+paths:
+  /question:
+    get:
+      operationId: getQuestion
+      summary: Aktuelle Frage holen
+      responses:
+        "200":
+          description: Nächste Frage oder Abschlussinfo
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  done:
+                    type: boolean
+                    description: Gibt an, ob der Fragebogen beendet ist
+                  question:
+                    type: string
+                    description: Die aktuelle Frage (wenn nicht done)
+                    nullable: true
+                required:
+                  - done
+
+  /answer:
+    post:
+      operationId: postAnswer
+      summary: Antwort auf aktuelle Frage senden
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                answer:
+                  type: string
+                  example: Ja
+              required:
+                - answer
+      responses:
+        "200":
+          description: Nächste Frage oder Abschlussinfo
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  done:
+                    type: boolean
+                    description: Gibt an, ob der Fragebogen beendet ist
+                  nextQuestion:
+                    type: string
+                    description: Die nächste Frage (wenn nicht done)
+                    nullable: true
+                required:
+                  - done
+
+  /summary:
+    get:
+      operationId: getSummary
+      summary: Zusammenfassung ausgeben
+      responses:
+        "200":
+          description: Zusammenfassung der Antworten
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  summary:
+                    type: object
+                    description: Zusammenfassung des Flows

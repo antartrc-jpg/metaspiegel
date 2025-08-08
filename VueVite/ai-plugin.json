@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Meta-Spiegel Diagnose",
+  "name_for_model": "meta_spiegel_plugin",
+  "description_for_human": "Diagnose-Tool für Veränderungsfitness basierend auf Meta-Spiegel.",
+  "description_for_model": "Führt interaktiven Fragen-Dialog basierend auf dem Meta-Spiegel durch.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://6458c63f-7459-41e4-83f8-5262db1ada31-00-1w241ejzh4u5v.riker.replit.dev/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://6458c63f-7459-41e4-83f8-5262db1ada31-00-1w241ejzh4u5v.riker.replit.dev/logo.png",
+  "contact_email": "antartrc@gmail.com",
+  "legal_info_url": "https://6458c63f-7459-41e4-83f8-5262db1ada31-00-1w241ejzh4u5v.riker.replit.dev/legal"
+}

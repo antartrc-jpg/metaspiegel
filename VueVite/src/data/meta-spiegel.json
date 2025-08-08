@@ -1,0 +1,462 @@
+{
+  "VC1|Wahrnehmung|Psychologische Sicherheit": {
+    "Problemtypen": [
+      "11. Mitarbeitende teilen Beobachtungen nicht oder nur anonym aus Angst vor negativen Konsequenzen.",
+      "12. Dominante Meinungen im Team unterdrücken abweichende Stimmen.",
+      "13. Frühere Sanktionen für offene Kritik führen zu Zurückhaltung.",
+      "14. Lieber nichts sagen, um keinen Ärger zu riskieren.",
+      "15. Hinweisgeber wurden in der Vergangenheit ignoriert oder abgestraft."
+    ],
+    "Handlungsempfehlungen": [
+      "11. Führungskräfte fördern aktiv eine Vertrauenskultur.",
+      "12. Fehlerkultur etablieren.",
+      "13. Moderierte Feedback-Runden einführen.",
+      "14. Trainings zu wertschätzender Kommunikation anbieten.",
+      "15. Führungskräfte als Vorbild einsetzen."
+    ],
+    "Rückfragen-Logik": [
+      "Fühlen sich Teammitglieder sicher genug, Probleme frühzeitig anzusprechen?",
+      "Werden Fehler im Team offen besprochen, ohne Schuldzuweisungen?",
+      "Holen Führungskräfte aktiv Feedback ein?",
+      "Gibt es anonyme Kanäle für Feedback?",
+      "Haben Mitarbeitende schon einmal Bedenken zurückgehalten aus Sorge vor negativen Folgen?"
+    ]
+  },
+  "VC1|Wahrnehmung|Meta-Lernen": {
+    "Problemtypen": [
+      "11. Das Team verharrt in gewohnten Denkmustern und erkennt neue Anforderungen nicht als Lernchance.",
+      "12. Schwache Signale für mögliche Probleme werden ignoriert, da kein achtsames Beobachten erfolgt.",
+      "13. Mitarbeitende sind sich ihrer blinden Flecken oder Kompetenzlücken nicht bewusst.",
+      "14. Verbesserungen zielen nur auf akute Symptome, nicht auf Ursachen.",
+      "15. Kaum externe Ideen oder Benchmarks werden genutzt."
+    ],
+    "Handlungsempfehlungen": [
+      "11. Lessons Learned schon früh einbinden.",
+      "12. Achtsamkeit schulen.",
+      "13. Peer-Feedback etablieren.",
+      "14. 5-Why-Methode anwenden.",
+      "15. Externe Impulse einholen."
+    ],
+    "Rückfragen-Logik": [
+      "Werden Abweichungen oder Fehler systematisch beobachtet?",
+      "Reflektiert das Team regelmäßig, was aus neuen Situationen gelernt werden kann?",
+      "Gibt es Formate, um blinde Flecken zu identifizieren?",
+      "Nutzen wir externe Benchmarks zur Verbesserung?",
+      "Werden Probleme häufig nur oberflächlich gelöst?"
+    ]
+  },
+  "VC1|Wahrnehmung|Organisationale Resilienz": {
+    "Problemtypen": [
+      "11. Erste Warnsignale werden ignoriert.",
+      "12. Fehlendes Frühwarnsystem.",
+      "13. Mitarbeiter melden Probleme nicht („Wird schon nichts passieren“).",
+      "14. Unsicherheit als Tabu.",
+      "15. Neue Markttrends werden erst ernst genommen, wenn Druck akut ist."
+    ],
+    "Handlungsempfehlungen": [
+      "11. Frühwarnsystem etablieren.",
+      "12. Unsicherheit enttabuisieren.",
+      "13. Szenarioplanung betreiben.",
+      "14. Frühmeldungen belohnen.",
+      "15. Umfeldscanning institutionalisiert durchführen."
+    ],
+    "Rückfragen-Logik": [
+      "Werden regelmäßig Risikoanalysen durchgeführt?",
+      "Spricht die Führung offen über potenzielle Gefahren?",
+      "Gibt es einen festen Prozess für Frühmeldungen?",
+      "Hätten jüngste Probleme früh erkannt werden können?",
+      "Wird Unsicherheit in Meetings angesprochen?"
+    ]
+  },
+  "VC1|Wahrnehmung|Veränderungsbiografien": {
+    "Problemtypen": [
+      "11. Ältere Mitarbeitende reagieren mit Warnungen („Das hat schon mal nicht geklappt“).",
+      "12. Vergangene Fehlschläge wirken nach.",
+      "13. Positive Veränderungen der Vergangenheit sind nicht präsent.",
+      "14. Alte „Narben“ führen zu Überängstlichkeit.",
+      "15. Reflexartiger Widerstand noch vor Kenntnis des Inhalts."
+    ],
+    "Handlungsempfehlungen": [
+      "11. Vergangene Projekte aufarbeiten.",
+      "12. Erfolgsgeschichten aktiv erzählen.",
+      "13. Positive Veränderungsgeschichte entwickeln.",
+      "14. Gescheiterte Projekte offen analysieren.",
+      "15. Führungskräfte sensibilisieren."
+    ],
+    "Rückfragen-Logik": [
+      "Werden vergangene Veränderungen transparent gemacht?",
+      "Führten frühere negative Erfahrungen zu Skepsis?",
+      "Kennt das Team positive Beispiele aus der Vergangenheit?",
+      "Gibt es Triggerwörter, die Widerstand auslösen?",
+      "Spricht die Führung offen über alte Ängste?"
+    ]
+  },
+  "VC2|Deutung|Psychologische Sicherheit": {
+    "Problemtypen": [
+      "11. Vorschneller Konsens ohne Widerspruch.",
+      "12. Kritische Fragen werden vermieden.",
+      "13. Bedenken werden nur im Flurfunk geäußert.",
+      "14. Grundlegende Annahmen werden nicht hinterfragt.",
+      "15. Unbewusste Immunität gegen Wandel."
+    ],
+    "Handlungsempfehlungen": [
+      "11. Devil’s Advocate-Prinzip nutzen.",
+      "12. Partizipative Moderationstechniken einsetzen.",
+      "13. Führungskräfte fragen aktiv nach alternativen Sichtweisen.",
+      "14. Anonyme Feedback-Tools einsetzen.",
+      "15. Double-Loop-Lernen fördern."
+    ],
+    "Rückfragen-Logik": [
+      "Trauen sich Teammitglieder, widersprüchliche Meinungen zu äußern?",
+      "Bleiben Einwände oft unausgesprochen?",
+      "Holen Führungskräfte verschiedene Perspektiven ein?",
+      "Werden Nachfragen willkommen geheißen?",
+      "Besprechen Mitarbeitende ihre Bedenken eher privat?"
+    ]
+  },
+  "VC2|Deutung|Meta-Lernen": {
+    "Problemtypen": [
+      "11. Neue Ideen werden sofort in bestehende Denkschablonen gepresst.",
+      "12. Widersprüchliche Erfahrungen werden ausgeblendet.",
+      "13. Kein Double-Loop-Learning.",
+      "14. Diskussionen führen kaum zu neuen Einsichten.",
+      "15. Neue Kolleg*innen mit frischem Blick werden nicht ernst genommen."
+    ],
+    "Handlungsempfehlungen": [
+      "11. Denkmodelle offenlegen.",
+      "12. Perspektivwechsel-Übungen durchführen.",
+      "13. Warum-Fragen fördern.",
+      "14. Umgang mit kognitiver Dissonanz trainieren.",
+      "15. Reverse Mentoring einführen."
+    ],
+    "Rückfragen-Logik": [
+      "Werden Grundannahmen hinterfragt?",
+      "Greifen wir alternative Erklärungen auf?",
+      "Fragen wir, warum wir Dinge so machen?",
+      "Werden neue Ideen wegen alter Methoden abgelehnt?",
+      "Sind Teammitglieder bereit, ihr Verständnis zu ändern?"
+    ]
+  },
+  "VC2|Deutung|Organisationale Resilienz": {
+    "Problemtypen": [
+      "11. Kein gemeinsames Verständnis von Resilienz.",
+      "12. Unterschiedliche Risikoeinschätzungen zwischen Führung und Belegschaft.",
+      "13. Resilienz wird als statisch verstanden.",
+      "14. Abteilungen nehmen nur ihre eigene Krisenfestigkeit wahr.",
+      "15. Externes Feedback wird ignoriert."
+    ],
+    "Handlungsempfehlungen": [
+      "11. Resilienz-Begriff klären.",
+      "12. Kriterienkatalog entwickeln.",
+      "13. Risikobewertungen abgleichen.",
+      "14. Resilienz als Prozess kommunizieren.",
+      "15. Abteilungsübergreifende Reviews durchführen."
+    ],
+    "Rückfragen-Logik": [
+      "Haben wir eine gemeinsame Definition von Resilienz?",
+      "Gibt es Kriterien zur Messung?",
+      "Sind Einschätzungen zwischen Führung und Belegschaft ähnlich?",
+      "Wird Resilienz als entwickelbar gesehen?",
+      "Nehmen wir externes Feedback ernst?"
+    ]
+  },
+  "VC2|Deutung|Veränderungsbiografien": {
+    "Problemtypen": [
+      "11. Unterschiedliche Deutungen, warum frühere Veränderungen scheiterten.",
+      "12. Erfolge/Misserfolge werden Personen zugeschrieben.",
+      "13. Kein Konsens über Lessons Learned.",
+      "14. Positive Erfahrungen gelten als Ausnahme.",
+      "15. Schutzmechanismen verhindern Benennung tiefer Ursachen."
+    ],
+    "Handlungsempfehlungen": [
+      "11. Gemeinsame Rückschau-Workshops durchführen.",
+      "12. Ursachenforschung versachlichen.",
+      "13. Konsens über Kern-Lernerfahrungen herstellen.",
+      "14. Positive Beispiele als wiederholbar darstellen.",
+      "15. Unterschiedliche Perspektiven zusammenführen."
+    ],
+    "Rückfragen-Logik": [
+      "Gibt es einen Konsens über Lessons Learned?",
+      "Analysieren wir Ursachen eher auf Personen- oder Strukturebene?",
+      "Gelten positive Erfahrungen als wiederholbar?",
+      "Variieren Deutungen zwischen Führung und Mitarbeitenden?",
+      "Werden vergangene Projekte systematisch aufgearbeitet?"
+    ]
+  },
+  "VC3|Resonanz|Psychologische Sicherheit": {
+    "Problemtypen": [
+      "11. Zustimmung im Team wird oft nur gespielt; tatsächliche Vorbehalte bleiben unausgesprochen.",
+      "12. Auf neue Veränderungen reagiert das Team mit Schweigen.",
+      "13. Zynischer Humor kaschiert Unsicherheit.",
+      "14. Einzelne ziehen sich emotional zurück.",
+      "15. Begeisterung Einzelner wird belächelt."
+    ],
+    "Handlungsempfehlungen": [
+      "11. Regelmäßige Resonanzrunden etablieren.",
+      "12. Zweifel und Sorgen legitimieren.",
+      "13. Zynische Kommentare als Signal nutzen.",
+      "14. Stille Teammitglieder gezielt einbeziehen.",
+      "15. Vertrauensbildende Teamübungen anbieten."
+    ],
+    "Rückfragen-Logik": [
+      "Werden Gefühle zu Veränderungen offen geäußert?",
+      "Gibt es Anzeichen für unausgesprochene Unzufriedenheit?",
+      "Darf man negative Reaktionen ohne Nachteile zeigen?",
+      "Werden emotionale Bedenken von der Führung aufgegriffen?",
+      "Reagiert das Team mit Schweigen oder Desinteresse?"
+    ]
+  },
+  "VC3|Resonanz|Meta-Lernen": {
+    "Problemtypen": [
+      "11. Team reagiert immer gleich auf wiederkehrende Probleme.",
+      "12. Emotionale Frustration wird ignoriert.",
+      "13. Positives Feedback wird nicht genutzt, um zu lernen.",
+      "14. Konflikte werden emotional ausgetragen ohne Ursachenanalyse.",
+      "15. Keine neuen Bewältigungsstrategien bei Stress."
+    ],
+    "Handlungsempfehlungen": [
+      "11. Nach belastenden Ereignissen Auswertungen durchführen.",
+      "12. Emotionale Intelligenz fördern.",
+      "13. Erfolge bewusst feiern und reflektieren.",
+      "14. Emotionale Root-Cause-Analysen durchführen.",
+      "15. Team-Rituale für konstruktiven Umgang mit Negativem entwickeln."
+    ],
+    "Rückfragen-Logik": [
+      "Reagieren wir immer gleich auf bekannte Probleme?",
+      "Lernen wir aus schwierigen Situationen?",
+      "Nutzen wir positives Feedback als Lernquelle?",
+      "Analysieren wir Konflikte im Nachhinein?",
+      "Werden neue Bewältigungsstrategien ausprobiert?"
+    ]
+  },
+  "VC3|Resonanz|Organisationale Resilienz": {
+    "Problemtypen": [
+      "11. In Krisen wird hektisch statt planvoll gehandelt.",
+      "12. Abteilungen isolieren sich.",
+      "13. Kaum gegenseitige Unterstützung unter Stress.",
+      "14. Kommunikation bricht im Krisenmodus ab.",
+      "15. Hilfe von außen wird nicht angenommen."
+    ],
+    "Handlungsempfehlungen": [
+      "11. Krisenübungen intensivieren.",
+      "12. Krisenstäbe einrichten.",
+      "13. Stressbewältigung im Team fördern.",
+      "14. Klare Entscheidungsregeln für Krisen festlegen.",
+      "15. Erfolge nach Krisen offen kommunizieren."
+    ],
+    "Rückfragen-Logik": [
+      "Handeln wir in Krisen koordiniert oder isoliert?",
+      "Führen Stresssituationen zu Konflikten?",
+      "Gehen wichtige Infos verloren?",
+      "Können Teams eigenständig entscheiden?",
+      "Werden positive Beispiele geteilt?"
+    ]
+  },
+  "VC3|Resonanz|Veränderungsbiografien": {
+    "Problemtypen": [
+      "11. Alte Misserfolge werden als Totschlag-Argument genutzt.",
+      "12. Positive Vergangenheitserfolge sind emotional verblasst.",
+      "13. Misstrauen gegenüber Führung durch frühere Fehler.",
+      "14. Dieselben Gruppen reagieren immer skeptisch.",
+      "15. Veränderungsmüdigkeit („Change Fatigue“)."
+    ],
+    "Handlungsempfehlungen": [
+      "11. Alte Misserfolge proaktiv ansprechen.",
+      "12. Erfolgsstories emotional erzählen.",
+      "13. Vertrauen durch Transparenz zurückgewinnen.",
+      "14. Skeptiker früh einbinden.",
+      "15. Fehlerkultur auch auf Führung anwenden."
+    ],
+    "Rückfragen-Logik": [
+      "Werden Fehlschläge sofort angesprochen?",
+      "Nutzen wir positive Vergangenheit als Motivation?",
+      "Ist Misstrauen ein Thema?",
+      "Gibt es „Standard-Skeptiker“?",
+      "Sehen wir Anzeichen für Change Fatigue?"
+    ]
+  },
+  "VC4|Reflexion|Psychologische Sicherheit": {
+    "Problemtypen": [
+      "11. Kritische Themen werden nur oberflächlich reflektiert.",
+      "12. Feedbackschleifen brechen ab.",
+      "13. Angst vor Schuldzuweisungen hemmt offene Analyse.",
+      "14. Reflexion wird als Zeitverschwendung betrachtet.",
+      "15. Lessons Learned werden nicht dokumentiert."
+    ],
+    "Handlungsempfehlungen": [
+      "11. Moderierte Tiefenreflexion etablieren.",
+      "12. Anonymisierte Feedbackauswertungen nutzen.",
+      "13. Reflexionsrunden in Projektabschluss einbinden.",
+      "14. Zeitfenster für offene Debriefings festlegen.",
+      "15. Ergebnisse sichtbar dokumentieren."
+    ],
+    "Rückfragen-Logik": [
+      "Werden auch unangenehme Themen offen besprochen?",
+      "Brechen Diskussionen ab, bevor Ursachen klar sind?",
+      "Haben wir Angst, dass Reflexion zu Schuld führt?",
+      "Ist Reflexion ein fester Bestandteil von Prozessen?",
+      "Werden Ergebnisse festgehalten?"
+    ]
+  },
+  "VC4|Reflexion|Meta-Lernen": {
+    "Problemtypen": [
+      "11. Wiederkehrende Probleme werden erkannt, aber nicht grundlegend gelöst.",
+      "12. Reflexion führt nicht zu Verhaltensänderung.",
+      "13. Keine Ableitung neuer Prinzipien aus Erfahrungen.",
+      "14. Fehlende Messung von Lerneffekten.",
+      "15. Fokus nur auf kurzfristige Korrekturen."
+    ],
+    "Handlungsempfehlungen": [
+      "11. Double-Loop-Learning anregen.",
+      "12. Lernergebnisse messbar machen.",
+      "13. Gemeinsame Prinzipien aus Erfahrungen ableiten.",
+      "14. Reflexionsmethoden schulen.",
+      "15. Langfristige Anpassungen planen."
+    ],
+    "Rückfragen-Logik": [
+      "Führen unsere Reflexionen zu neuen Verhaltensweisen?",
+      "Messen wir Lernergebnisse?",
+      "Leiten wir Prinzipien aus Erfahrungen ab?",
+      "Nutzen wir doppelte Feedbackschleifen?",
+      "Bleiben Anpassungen auch langfristig bestehen?"
+    ]
+  },
+  "VC4|Reflexion|Organisationale Resilienz": {
+    "Problemtypen": [
+      "11. Reflexion zu Krisen verläuft rein technisch.",
+      "12. Emotionale Folgen werden ignoriert.",
+      "13. Verbesserungsmaßnahmen nach Krisen werden nicht umgesetzt.",
+      "14. Dieselben Schwachstellen tauchen wieder auf.",
+      "15. Lerneffekte sind nicht organisationsweit sichtbar."
+    ],
+    "Handlungsempfehlungen": [
+      "11. Ganzheitliche Krisenreviews durchführen.",
+      "12. Emotionale Dimension in Nachbereitung aufnehmen.",
+      "13. Verbesserungen verbindlich einplanen.",
+      "14. Schwachstellen systematisch beheben.",
+      "15. Ergebnisse organisationsweit teilen."
+    ],
+    "Rückfragen-Logik": [
+      "Besprechen wir Krisen nur technisch oder auch emotional?",
+      "Setzen wir Verbesserungen konsequent um?",
+      "Tauchen dieselben Probleme immer wieder auf?",
+      "Werden Lerneffekte dokumentiert?",
+      "Werden Erkenntnisse im ganzen Unternehmen geteilt?"
+    ]
+  },
+  "VC4|Reflexion|Veränderungsbiografien": {
+    "Problemtypen": [
+      "11. Keine Aufarbeitung langfristiger Veränderungshistorien.",
+      "12. Alte Fehler werden vergessen und wiederholt.",
+      "13. Erfolge werden nicht nachhaltig verankert.",
+      "14. Verzerrte Erinnerung an frühere Veränderungen.",
+      "15. Reflexion bleibt auf aktuelle Projekte beschränkt."
+    ],
+    "Handlungsempfehlungen": [
+      "11. Historische Change-Analysen durchführen.",
+      "12. Fehlerarchiv pflegen.",
+      "13. Erfolgsmechanismen dokumentieren.",
+      "14. Gemeinsames Narrativ für Vergangenheit entwickeln.",
+      "15. Langzeitreflexion einplanen."
+    ],
+    "Rückfragen-Logik": [
+      "Arbeiten wir langfristige Veränderungshistorien auf?",
+      "Wiederholen wir alte Fehler?",
+      "Sind Erfolge nachhaltig verankert?",
+      "Gibt es eine verzerrte Erinnerung?",
+      "Reflektieren wir nur aktuelle Projekte?"
+    ]
+  },
+  "VC5|Integration|Psychologische Sicherheit": {
+    "Problemtypen": [
+      "11. Nach Abschluss der Veränderung nimmt Offenheit wieder ab.",
+      "12. Feedbackkanäle werden nicht dauerhaft genutzt.",
+      "13. Erfolge führen zu Selbstzufriedenheit statt Weiterentwicklung.",
+      "14. Neue Mitarbeitende kennen die offene Kultur nicht.",
+      "15. Kritik wird wieder als Angriff gesehen."
+    ],
+    "Handlungsempfehlungen": [
+      "11. Feedbackrunden als Dauerformat sichern.",
+      "12. Neue Mitarbeitende gezielt in Feedbackkultur einführen.",
+      "13. Erfolge als Startpunkt für neue Ziele kommunizieren.",
+      "14. Führung trainieren, Offenheit zu halten.",
+      "15. Offene Kultur in Zielvereinbarungen verankern."
+    ],
+    "Rückfragen-Logik": [
+      "Bleibt Offenheit auch nach Projektende bestehen?",
+      "Werden Feedbackkanäle weiter genutzt?",
+      "Führt Erfolg zu Stillstand?",
+      "Kennen Neue die Feedbackkultur?",
+      "Wird Kritik konstruktiv aufgenommen?"
+    ]
+  },
+  "VC5|Integration|Meta-Lernen": {
+    "Problemtypen": [
+      "11. Gelerntes Wissen wird nicht auf neue Kontexte übertragen.",
+      "12. Alte Routinen kehren zurück.",
+      "13. Neue Prinzipien werden nicht institutionalisiert.",
+      "14. Lernen bleibt personenabhängig.",
+      "15. Keine systematische Wissensweitergabe."
+    ],
+    "Handlungsempfehlungen": [
+      "11. Transfer-Workshops durchführen.",
+      "12. Neue Routinen in Arbeitsanweisungen verankern.",
+      "13. Prinzipien in Onboarding integrieren.",
+      "14. Communities of Practice gründen.",
+      "15. Wissensmanagement-Tools einsetzen."
+    ],
+    "Rückfragen-Logik": [
+      "Wird Gelerntes in neuen Kontexten angewendet?",
+      "Bleiben neue Routinen bestehen?",
+      "Sind Prinzipien institutionalisiert?",
+      "Wird Wissen geteilt?",
+      "Ist Lernen unabhängig von Einzelpersonen?"
+    ]
+  },
+  "VC5|Integration|Organisationale Resilienz": {
+    "Problemtypen": [
+      "11. Resilienzmaßnahmen werden nicht gepflegt.",
+      "12. Lerneffekte aus Krisen veralten.",
+      "13. Verantwortung für Resilienz ist unklar.",
+      "14. Frühwarnsysteme werden nicht regelmäßig überprüft.",
+      "15. Resilienz bleibt reaktiv."
+    ],
+    "Handlungsempfehlungen": [
+      "11. Resilienz-Check jährlich durchführen.",
+      "12. Verantwortlichkeiten festlegen.",
+      "13. Frühwarnsystem regelmäßig testen.",
+      "14. Resilienz in Strategie verankern.",
+      "15. Externe Audits nutzen."
+    ],
+    "Rückfragen-Logik": [
+      "Werden Resilienzmaßnahmen regelmäßig überprüft?",
+      "Ist Verantwortung klar?",
+      "Funktionieren Frühwarnsysteme?",
+      "Wird Resilienz strategisch betrachtet?",
+      "Nutzen wir externe Audits?"
+    ]
+  },
+  "VC5|Integration|Veränderungsbiografien": {
+    "Problemtypen": [
+      "11. Erfolgsgeschichten verblassen ohne Pflege.",
+      "12. Lessons Learned werden nicht in Standards integriert.",
+      "13. Neue Mitarbeitende kennen Veränderungshistorie nicht.",
+      "14. Alte Widerstände tauchen bei neuen Themen auf.",
+      "15. Kein gemeinsames Narrativ für die Zukunft."
+    ],
+    "Handlungsempfehlungen": [
+      "11. Veränderungsgeschichten regelmäßig auffrischen.",
+      "12. Lessons Learned in Standards übernehmen.",
+      "13. Historie ins Onboarding einbinden.",
+      "14. Frühwarnsignale für alte Widerstände nutzen.",
+      "15. Gemeinsame Zukunftsgeschichte entwickeln."
+    ],
+    "Rückfragen-Logik": [
+      "Werden Erfolge aktiv erinnert?",
+      "Sind Lessons Learned Teil der Standards?",
+      "Kennen Neue die Historie?",
+      "Tauchen alte Widerstände wieder auf?",
+      "Gibt es eine gemeinsame Zukunftsgeschichte?"
+    ]
+  }
+}
