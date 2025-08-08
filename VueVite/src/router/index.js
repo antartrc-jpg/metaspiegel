@@ -45,7 +45,7 @@ const routes = [
   {
     path: '/health',
     name: 'healthcheck',
-    component: () => import('@/views/Healthcheck.vue')
+    component: () => import('@/Healthcheck.vue')  // <-- ✅ KORREKT: nicht in views!
   }
 ]
 
