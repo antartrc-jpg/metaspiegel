@@ -6,12 +6,11 @@
   "description_for_model": "Führt interaktiven Fragen-Dialog basierend auf dem Meta-Spiegel durch.",
   "auth": {
     "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://metaspiegel.vercel.app/openapi.yaml",
-    "is_user_authenticated": false
-  },
+"api": {
+  "type": "openapi",
+  "url": "https://metaspiegel.vercel.app/openapi.yaml",
+  "is_user_authenticated": false
+},
   "logo_url": "https://metaspiegel.vercel.app/logo.png",
   "contact_email": "antartrc@gmail.com",
   "legal_info_url": "https://metaspiegel.vercel.app/legal"
