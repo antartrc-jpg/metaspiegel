@@ -1,15 +1,37 @@
+// Einfacher In-Memory-Store für Antworten pro Session
+let sessionsAnswers = {}; // { sessionId: [antwort1, antwort2, ...] }
+
 export default function handler(req, res) {
-  if (req.method === 'GET') {
-    const summary = generateSummary(); // z. B. aus Session lesen
-    res.status(200).json({
-      summary
-    });
-  } else {
-    res.status(405).end(); // Method Not Allowed
+  setCorsHeaders(res);
+
+  if (req.method === 'OPTIONS') {
+    res.status(200).end();
+    return;
   }
+
+  if (req.method === 'GET') {
+    const sessionId = req.headers['x-session-id'] || 'default';
+    const answers = sessionsAnswers[sessionId] || [];
+
+    const summary = generateSummary(answers);
+    res.status(200).json({ summary });
+    return;
+  }
+
+  res.status(405).end();
 }
 
-function generateSummary() {
-  // Beispielhafter Text – später dynamisch generieren
-  return "Du hast angegeben, dass du Feedback nur zurückhaltend gibst und Veränderung im Team als herausfordernd empfindest.";
+function generateSummary(answers) {
+  if (answers.length === 0) {
+    return "Es liegen noch keine Antworten vor.";
+  }
+
+  // Beispielhafte Zusammenfassung: Einfach Antworten aufzählen
+  return "Deine bisherigen Antworten sind: " + answers.join(", ") + ".";
+}
+
+function setCorsHeaders(res) {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, X-Session-Id');
 }
