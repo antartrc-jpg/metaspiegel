@@ -1,16 +1,16 @@
 {
   "rewrites": [
     {
-      "source": "/openapi.yaml",
-      "destination": "/Public/openapi-public.yaml"
+      "source": "/openapi-public.yaml",
+      "destination": "/openapi-public.yaml"
     },
     {
       "source": "/ai-plugin.json",
-      "destination": "/Public/ai-plugin.json"
+      "destination": "/ai-plugin.json"
     },
     {
       "source": "/privacy.html",
-      "destination": "/Public/privacy.html"
+      "destination": "/privacy.html"
     },
     {
       "source": "/(.*)",
